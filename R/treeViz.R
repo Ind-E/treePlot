@@ -1,9 +1,9 @@
 #' Tree Vizualization
 #'
 #' Draw lines on a scatter plot to visualize tree decisions
-#' @param data a data frame whose first 3 columns are in the form:
+#' @param data \ta data frame whose first 3 columns are in the form:
 #'  Outcome, Feature 1, Feature 2
-#' @param tree a classification or regression tree made with the rpart package
+#' @param tree \ta classification or regression tree made with the rpart package
 #' @return a ggplot object
 #' @examples
 #' # This example uses the mnist dataset from the dslabs packages
