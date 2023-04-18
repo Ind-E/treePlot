@@ -7,10 +7,10 @@
 viz_tree(data = data.frame, tree = rpart())
 }
 \arguments{
-\item{data}{\t a data frame whose first 3 columns are in the form:
+\item{data}{a data frame whose first 3 columns are in the form:
 Outcome, Feature 1, Feature 2}
 
-\item{tree}{\t a classification or regression tree made with the rpart package}
+\item{tree}{a classification or regression tree made with the rpart package}
 }
 \value{
 a ggplot object
