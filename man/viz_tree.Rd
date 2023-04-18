@@ -4,7 +4,7 @@
 \alias{viz_tree}
 \title{Tree Vizualization}
 \usage{
-viz_tree(data, tree)
+viz_tree(data = data.frame, tree = rpart())
 }
 \arguments{
 \item{data}{\t a data frame whose first 3 columns are in the form:
